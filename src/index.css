@@ -74,6 +74,10 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  min-height: 100vh;
+  font-size: var(--fs-400);
+  color: hsl(var(--clr-light));
+  background-color: hsl(var(--clr-dark));
 }
 
 /* A elements that don't have a class get default styles */
@@ -126,10 +130,3 @@ select {
     border: 0;
 }
 
-/* body {
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-h5 {
-    font-family: 'Bellefair', serif;
-} */
