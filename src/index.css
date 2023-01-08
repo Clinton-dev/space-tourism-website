@@ -1,8 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------ */
+/* Custom properties */
+/* ---------------- */
+
+:root {
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+
+  /* font sizes */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+  /* font-families */
+  --fs-serif: "Bellefair", serif;
+  --fs-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
+}
 
 /* Box sizing rules */
 *,
@@ -23,6 +46,16 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
