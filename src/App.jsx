@@ -1,4 +1,4 @@
-import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 import './App.css'
 import Crew from './pages/Crew'
@@ -10,7 +10,7 @@ import Technology from './pages/Technology'
 function App() {
 
   return (
-    <div className="text-3xl font-bold underline">
+    <div >
       <Switch>
       <Route exact path='/'>
           <Home/>
